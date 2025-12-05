@@ -26,9 +26,9 @@ export const Hero: React.FC = () => {
           />
         </div>
 
-        <p className="text-slate-300 text-lg md:text-2xl font-light leading-relaxed max-w-3xl mx-auto mb-10">
-          Empowering Business through Data-Led <br className="hidden md:block" />
-          <span className="text-white font-medium">Process Automation, Transparency, and Governance.</span>
+        <p className="text-lg md:text-2xl leading-relaxed max-w-3xl mx-auto mb-10">
+          <span className="text-slate-300 font-sans font-light">Empowering Business through Data-Led</span> <br className="hidden md:block" />
+          <span className="text-white font-handwriting font-semibold text-2xl md:text-3xl">Process Automation, Transparency, and Governance.</span>
         </p>
       </div>
 
