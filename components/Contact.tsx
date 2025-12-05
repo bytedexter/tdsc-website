@@ -33,38 +33,38 @@ export const Contact: React.FC = () => {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="bg-slate-50 p-10 rounded-lg border border-slate-100">
-             <h3 className="text-2xl font-serif font-bold text-slate-900 mb-8">Corporate Headquarters</h3>
-             
-             <div className="space-y-8">
-                <div className="flex items-start">
-                   <MapPin className="text-slate-700 mt-1 mr-4" size={24} />
-                   <div>
-                      <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Address</h4>
-                      <p className="text-slate-600 leading-relaxed">
-                        TDSC Towers, Tech Park,<br />
-                        Sector 5, Electronic City,<br />
-                        Bangalore, KA 560100
-                      </p>
-                   </div>
-                </div>
+            <h3 className="text-2xl font-serif font-bold text-slate-900 mb-8">Corporate Headquarters</h3>
 
-                <div className="flex items-start">
-                   <Mail className="text-slate-700 mt-1 mr-4" size={24} />
-                   <div>
-                      <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Email</h4>
-                      <p className="text-slate-600">contact@tdsc.com</p>
-                      <p className="text-slate-600">support@tdsc.com</p>
-                   </div>
+            <div className="space-y-8">
+              <div className="flex items-start">
+                <MapPin className="text-slate-700 mt-1 mr-4" size={24} />
+                <div>
+                  <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Address</h4>
+                  <p className="text-slate-600 leading-relaxed">
+                    TDSC Towers, Tech Park,<br />
+                    Sector 5, Salt Lake City,<br />
+                    Kolkata, WB 700091
+                  </p>
                 </div>
+              </div>
 
-                <div className="flex items-start">
-                   <Phone className="text-slate-700 mt-1 mr-4" size={24} />
-                   <div>
-                      <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Phone</h4>
-                      <p className="text-slate-600">+91 80 1234 5678</p>
-                   </div>
+              <div className="flex items-start">
+                <Mail className="text-slate-700 mt-1 mr-4" size={24} />
+                <div>
+                  <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Email</h4>
+                  <p className="text-slate-600">contact@tdsc.com</p>
+                  <p className="text-slate-600">info@tdsc.com</p>
                 </div>
-             </div>
+              </div>
+
+              <div className="flex items-start">
+                <Phone className="text-slate-700 mt-1 mr-4" size={24} />
+                <div>
+                  <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wide mb-1">Phone</h4>
+                  <p className="text-slate-600">+91 33 2567 8901</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Contact Form */}

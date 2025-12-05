@@ -25,14 +25,13 @@ export const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-tdsc-darker/95 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-tdsc-darker/95 backdrop-blur-sm shadow-lg py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="text-white font-serif font-bold text-2xl tracking-widest hover:opacity-80 transition-opacity">
-          TDSC
+        <Link to="/" className="hover:opacity-80 transition-opacity">
+          <img src="/assets/tdsc-logo.png" alt="TDSC Logo" className="h-10" />
         </Link>
 
         {/* Desktop Nav */}

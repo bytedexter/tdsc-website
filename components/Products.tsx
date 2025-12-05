@@ -15,40 +15,39 @@ export const Products: React.FC = () => {
         <div className="max-w-5xl mx-auto">
           <div className="bg-slate-50 border border-slate-200 rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col md:flex-row">
             {/* Visual Side */}
-            <div className="md:w-2/5 bg-tdsc-dark p-12 flex flex-col justify-center items-center text-white relative overflow-hidden">
-               <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-950 opacity-50"></div>
-               <div className="relative z-10 text-center">
-                  <div className="text-6xl font-serif font-black mb-2 tracking-tighter">4Sight</div>
-                  <div className="text-slate-400 text-sm uppercase tracking-widest">Engine</div>
-               </div>
+            <div className="md:w-2/5 bg-tdsc-dark p-8 md:p-12 flex flex-col justify-center items-center text-white relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-800 to-slate-950 opacity-50"></div>
+              <div className="relative z-10 w-full flex justify-center items-center">
+                <img src="/assets/4sight-logo.png" alt="4Sight Logo" className="max-w-full max-h-48 w-auto h-auto object-contain" />
+              </div>
             </div>
 
             {/* Content Side */}
             <div className="md:w-3/5 p-10 md:p-12 flex flex-col justify-center">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">The Premier SEO & Marketing Automation Engine</h3>
               <p className="text-slate-600 leading-relaxed mb-8">
-                4Sight is not just a tool; it is an intelligent framework designed to bring absolute clarity to your marketing efforts. 
+                4Sight is not just a tool; it is an intelligent framework designed to bring absolute clarity to your marketing efforts.
                 By leveraging advanced data governance, we ensure that every click, impression, and conversion is tracked with forensic precision.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="flex flex-col items-start">
-                   <div className="p-2 bg-blue-50 rounded-md mb-2">
+                  <div className="p-2 bg-blue-50 rounded-md mb-2">
                     <BarChart3 className="text-blue-900" size={20} />
-                   </div>
-                   <span className="text-sm font-semibold text-slate-900">Analytics</span>
+                  </div>
+                  <span className="text-sm font-semibold text-slate-900">Analytics</span>
                 </div>
                 <div className="flex flex-col items-start">
-                   <div className="p-2 bg-blue-50 rounded-md mb-2">
+                  <div className="p-2 bg-blue-50 rounded-md mb-2">
                     <Zap className="text-blue-900" size={20} />
-                   </div>
-                   <span className="text-sm font-semibold text-slate-900">Automation</span>
+                  </div>
+                  <span className="text-sm font-semibold text-slate-900">Automation</span>
                 </div>
                 <div className="flex flex-col items-start">
-                   <div className="p-2 bg-blue-50 rounded-md mb-2">
+                  <div className="p-2 bg-blue-50 rounded-md mb-2">
                     <ShieldCheck className="text-blue-900" size={20} />
-                   </div>
-                   <span className="text-sm font-semibold text-slate-900">Governance</span>
+                  </div>
+                  <span className="text-sm font-semibold text-slate-900">Governance</span>
                 </div>
               </div>
 
