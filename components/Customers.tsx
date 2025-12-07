@@ -18,12 +18,21 @@ const clients = [
 
 export const Customers: React.FC = () => {
   return (
-    <section id="customers" className="py-20 bg-slate-100 border-y border-slate-200">
-      <div className="container mx-auto px-6">
+    <section id="customers" className="py-20 bg-black border-y border-zinc-800 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src="/assets/section-background.png"
+          alt="Background"
+          className="w-full h-full object-cover opacity-40"
+        />
+      </div>
+
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-serif font-bold text-slate-900 uppercase tracking-widest">Trusted By Industry Leaders</h2>
+          <h2 className="text-2xl font-serif font-bold text-gray-100 uppercase tracking-widest">Trusted By Industry Leaders</h2>
         </div>
-        
+
         <div className="relative overflow-hidden">
           <div className="flex space-x-8 animate-[marquee-right_25s_linear_infinite]">
             {[...clients, ...clients].map((client, idx) => (
