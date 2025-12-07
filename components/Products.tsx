@@ -52,10 +52,12 @@ export const Products: React.FC = () => {
               </div>
 
               <div>
-                <button className="group inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-900 hover:bg-slate-800 transition-colors">
-                  Visit 4Sight
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+                <a href="https://tdsc-website-iqg4.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className="group inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-900 hover:bg-slate-800 transition-colors">
+                    Visit 4Sight
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>
